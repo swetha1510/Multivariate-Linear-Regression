@@ -21,7 +21,7 @@ Enter the parameters to implement
 Run the program and predict the output
 
 ## Program:
-D
+```
 
 import pandas as pd
 from sklearn import linear_model
@@ -34,8 +34,9 @@ print('Coefficients:',regr.coef_)
 print("Intercept",regr.intercept_)
 predictedCO2=regr.predict([[1995,522]])
 print("Predicted CO2 emission based on weight")
-
+```
 ## Output:
+
 
 
 ## Result
