@@ -22,7 +22,8 @@ Run the program and predict the output
 
 ## Program:
 ```
-
+Devoloped By: SWETHA P
+Register Nmber:22008542
 import pandas as pd
 from sklearn import linear_model
 df=pd.read_csv("/content/cars (1).csv")
@@ -36,8 +37,7 @@ predictedCO2=regr.predict([[1995,522]])
 print("Predicted CO2 emission based on weight")
 ```
 ## Output:
-
-
+![IMG](./OUT3.jpg)
 
 ## Result
-Thus the multivariate linear regression is implemented and predicted the output using python program.
+Thus the multivariate linear regression is implemented and predicted the output using python program.
